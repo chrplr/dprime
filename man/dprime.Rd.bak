@@ -1,0 +1,25 @@
+\name{dprime}
+\alias{dprime}
+\title{D prime}
+\description{
+Computes the d' sensitivity measure of the signal detection theory}
+\usage{
+dprime(hit,fas)
+}
+\arguments{
+  \item{hit}{hit rates}
+  \item{fas}{false alarm rates}
+}
+\details{
+  Return a vector containing d' values for each hit and fa rate pairs.
+}
+
+\note{}
+\seealso{
+  \code{\link{beta,aprime,bppd}}.
+}
+\examples{
+dprime(.8,.2)
+}
+\keyword{SDT, sensitivity}
+

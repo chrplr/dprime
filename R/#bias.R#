@@ -1,0 +1,11 @@
+# Computation of the sensitivity parameter (d') of SDT
+
+# Reference: Macmillan & Creelman (1991) Signal Detection Theory: A user's guide. Cambridge University Press
+
+# Author: Christophe.Pallier@m4x.org
+
+# Date: 18 Nov. 2003
+
+bias <- function (hit,fa,design="yes.no")  {
+ 
+} 

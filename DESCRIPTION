@@ -1,0 +1,13 @@
+Package: chrplr
+Version: 1.0
+Date: 2003-01-04
+Title: Misc. useful functions for experimental psychology.
+Author: Christophe Pallier <Christophe.Pallier@m4x.org>
+Maintainer: Christophe Pallier <Christophe.Pallier@m4x.org>
+Depends: R (>= 1.6.0)
+Description: A collection of routines for basic analyses in 
+             Experimental Psychology
+License: GPL version 2 or newer
+URL: http://www.r-project.org, http://www.pallier.org
+
+

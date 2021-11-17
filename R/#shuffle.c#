@@ -1,0 +1,7 @@
+shuffle <- function(array,size,constraints=NULL) 
+{
+  if (constraints==NULL) 
+    return sample(array,size,replace=FALSE)
+  else
+ 
+}

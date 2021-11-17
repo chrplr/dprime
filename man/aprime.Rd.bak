@@ -1,0 +1,26 @@
+\name{aprime}
+\alias{aprime}
+\title{A prime}
+\description{
+Computes the A' sensitivity measure of the signal detection theory}
+\usage{
+aprime(hit,fas)
+}
+\arguments{
+  \item{hit}{hit rates}
+  \item{fas}{false alarm rates}
+}
+\details{
+  Return a vector containing A' values for each hit and fa rate pairs.
+}
+\note{Reference: Don Wayne Donaldson (1992) Measuring Recognition
+    Memory. Journal of Experimental Psychology: General, 121, 3, 275--277
+}
+\seealso{
+  \code{\link{beta,dprime,bppd}}.
+}
+\examples{
+aprime(.8,.2)
+}
+\keyword{SDT, sensitivity}
+
